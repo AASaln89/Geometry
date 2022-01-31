@@ -12,7 +12,11 @@
                 <GeometryGroup>
                     <EllipseGeometry Center="200,200" RadiusX="60" RadiusY="60"/>
                     <EllipseGeometry Center="200,200" RadiusX="50" RadiusY="50"/>
-                    <RectangleGeometry Rect="195,150,10,100"/>
+                    <RectangleGeometry Rect="195,150,10,100">
+                        <RectangleGeometry.Transform>
+                            <RotateTransform CenterX="200" CenterY="200" Angle="30"/>
+                        </RectangleGeometry.Transform>
+                    </RectangleGeometry>
                 </GeometryGroup>
             </Path.Data>
         </Path>
